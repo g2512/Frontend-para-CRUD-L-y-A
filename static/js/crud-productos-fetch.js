@@ -44,8 +44,8 @@ async function showProductos(){
                     <td>${producto.precio}</td>
                     <td>${producto.foto}</td>
                     <td>
-                        <button class="btn-cac" onclick='updateMovie(${producto.id_producto})'><i class="fa fa-pencil" ></button></i>
-                        <button class="btn-cac" onclick='deleteMovie(${producto.id_producto})'><i class="fa fa-trash" ></button></i>
+                        <button class="btn-cac" onclick='updateProducto(${producto.id_producto})'><i class="fa fa-pencil" ></button></i>
+                        <button class="btn-cac" onclick='deleteProducto(${producto.id_producto})'><i class="fa fa-trash" ></button></i>
                     </td>
                   </tr>`;
       tableProductos.insertAdjacentHTML("beforeend",tr);
