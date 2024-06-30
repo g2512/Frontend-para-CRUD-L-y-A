@@ -833,3 +833,21 @@ html.mode img , html.mode .whatsapp {
     margin: 0px 250px;
     text-align: center;
 }
+
+.crud {
+    display: grid;
+    background-color: #f3ede5;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.p-crud {
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
